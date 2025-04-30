@@ -8,8 +8,8 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program": "${workspaceFolder}/enumeration/src/main.rs",
-            "args": [],
+            "program": "${workspaceFolder}/minigrep/src/main.rs",
+            "args": ["to", "src/poem.txt"],
             "cwd": "${workspaceFolder}"
         }
     ]
